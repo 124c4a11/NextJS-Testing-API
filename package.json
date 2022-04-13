@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev\" \"npm run server\"",
+    "dev": "next dev",
     "build": "next build",
-    "start": "concurrently \"next start\" \"npm run server\"",
+    "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch",
-    "server": "json-server -w public/db.json -p 3001"
+    "test": "jest --watch"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
